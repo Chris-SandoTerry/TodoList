@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>A React app</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
+    <div class="container">
+      <div class="todo-app">
+        <h2>To-Do List <img src="../images/icon.png"></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add yout text">
+          <button>Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
     <div id="root"></div>
+    <script src="script.js"></script>
   <script type="module" src="index.js"></script>
   </body>
 </html>
