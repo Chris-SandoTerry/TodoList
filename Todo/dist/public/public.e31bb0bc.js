@@ -29004,7 +29004,7 @@ var App = /*#__PURE__*/function (_Component) {
     value: function render() {
       return /*#__PURE__*/_react.default.createElement("div", {
         className: "App"
-      }, /*#__PURE__*/_react.default.createElement("h1", null, "A React app"), /*#__PURE__*/_react.default.createElement("p", null, "Edit ", /*#__PURE__*/_react.default.createElement("code", null, "src/App.js"), ", save and reload."));
+      }, /*#__PURE__*/_react.default.createElement("h1", null, "A React app"), /*#__PURE__*/_react.default.createElement("p", null, "Edit, save and reload."));
     }
   }]);
 }(_react.Component);
@@ -29044,7 +29044,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56520" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56690" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
